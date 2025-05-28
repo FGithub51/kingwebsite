@@ -245,12 +245,8 @@ h1 {
 a {
     text-decoration: none;
 }
-a:visited {
 
-}
-a:hover {
 
-}
 
 @media (width<900px){
     .sectioncontent .container {
