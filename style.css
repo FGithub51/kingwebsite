@@ -252,7 +252,7 @@ a:hover {
 
 }
 
-@media (width < 900px){
+@media (width<900px){
     .sectioncontent .container {
     flex-direction: column;
     };
@@ -264,7 +264,7 @@ a:hover {
 
 }
 
-@media (width < 600px){
+@media (width<600px){
     
 }
 
