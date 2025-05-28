@@ -17,14 +17,13 @@
     flex-direction: column;
 }
 .c .description {
-    
+    display: flex;
 }
 
 .c .button {
     display: flex;
 }
 .c .btn {
-    display: flex;
     cursor: pointer;
     background-color: #323232;
     color:white;
