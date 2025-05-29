@@ -40,7 +40,7 @@
     text-decoration: none;
     color: white ;
 }
-.c a .btn:hover {
+.c a.btn:hover {
     background-color: white;
     color: #323232;
     border: solid 1px#323232;
