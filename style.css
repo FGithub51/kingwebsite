@@ -7,28 +7,30 @@
 .c .image {
     display: flex;
 }
+
 .c img {
     width: 600px;
     height: auto;
 }
+
 .c .content {
     display: flex;
     padding: 20px;
     flex-direction: column;
 }
-.c .description {
 
-}
+.c .description {}
 
 .c .button {
     display: flex;
 }
+
 .c .btn {
     cursor: pointer;
     background-color: #323232;
-    color:white;
+    color: white;
     width: 120px;
-    height:20px;
+    height: 20px;
     font-size: 20px;
     text-align: center;
     vertical-align: middle;
@@ -38,22 +40,24 @@
 
 .c .button a {
     text-decoration: none;
-    color: white ;
+    color: white;
 }
+
 .c a.btn:hover {
     background-color: white;
     color: #323232;
     border: solid 1px#323232;
 }
-.sectioncontent{
-    
+
+.sectioncontent {
+
     display: flex;
     border: 1px solid black;
-    background-color:#18181B;
+    background-color: #18181B;
     min-height: 680px;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
 .sectioncontent .header {
@@ -64,7 +68,7 @@
 }
 
 .sectioncontent .header p {
-    color:white ;
+    color: white;
     font-size: 60px;
     margin: 0px;
 }
@@ -80,20 +84,20 @@
     background-color: red;
     padding: 1px;
     text-align: center;
-    
-    
+
+
 }
 
 .header .content {
-    font-size:60px;
+    font-size: 60px;
     color: white;
 
 }
 
 
-.container1{
+.container1 {
     display: flex;
-    background-color:#323232;
+    background-color: #323232;
     border: 1px solid black;
     padding: 20px;
     font-family: sans-serif;
@@ -103,7 +107,7 @@
     align-items: center;
     color: white;
     text-align: center;
-    
+
 
 }
 
@@ -117,9 +121,9 @@
     height: auto;
 }
 
-.container2{
+.container2 {
     display: flex;
-    background-color:#323232;
+    background-color: #323232;
     border: 1px solid black;
     padding: 20px;
     font-family: sans-serif;
@@ -137,18 +141,24 @@
     display: flex;
     flex-direction: column;
 }
+
 .tradingview-widget-container {
     display: flex;
     flex-direction: row;
 }
 
-.tradingview .description{
+.chartcontainer {
+    min-width: 800px;
+    display: flex;
+}
+
+.tradingview .description {
     padding: 60px;
     display: flex;
     min-width: 500px;
     flex-direction: column;
 
-    
+
 }
 
 .tradingview .description-title {
@@ -158,7 +168,7 @@
 
 .ri-btc-fill {
     background-color: transparent;
-    color: #18181B ;
+    color: #18181B;
     size: 20px;
     font-size: 80px;
 }
@@ -168,17 +178,16 @@
     font-size: 20px;
     margin: 7px;
 }
-.tradingview .description-content {
 
-}
+.tradingview .description-content {}
 
 .tradingview p {
     font-size: 20px;
 }
-#chart{
-    display: flex;
-    width: 800px;
-    height: 500px;
+
+#chart {
+    width: 250px;
+    height: auto;
 }
 
 .tradingview a {
@@ -203,27 +212,29 @@
     display: flex;
     flex-direction: row;
 }
+
 #meter {
     display: flex;
     margin: 0 0 0 200px;
 
 }
+
 #meter .scriptmeter {
     display: flex;
 }
 
-#tradingview-meter .description{
+#tradingview-meter .description {
     display: flex;
 
 
 }
 
-#tradingview-meter .description p{
+#tradingview-meter .description p {
     font-size: 20px;
 
 }
 
-            
+
 
 
 
@@ -231,38 +242,40 @@
     column-gap: 30px;
     margin: 20px;
     font-size: 17px;
-    
+
 
 }
+
 h1 {
     font-size: 27px;
 }
+
 .p {
     font-size: 1px;
-    
+
 
 }
+
 a {
     text-decoration: none;
 }
 
 
 
-@media (width<900px){
+
+@media (width<900px) {
     .sectioncontent .container {
-    flex-direction: column;
-    };
+        flex-direction: column;
+    }
+
+    ;
+
     .c {
         flex-direction: column;
     }
 
-    
+
 
 }
 
-@media (width<600px){
-    
-}
-
-    
-    
+@media (width<600px) {}
